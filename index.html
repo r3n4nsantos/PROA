@@ -1,67 +1,110 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="utf-8">
 		<title>PROA</title>
+		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"><!-320->
 		<meta name="description" content="">
 		<link rel="shortcut icon" href="favicon.ico">
 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet"/>
-		<link rel="stylesheet" href="./assets/styles.css"   media="all" />
+		<link href="default.css" rel="stylesheet" type="text/css" media="all"/>
+		<script type="text/javascript" src="default.js"></script>
 	</head>
 	<body>
- 		<header>
-  			<nav id="navbar">
-				<a href="./">História</a>
-				<a href="#">Mídia</a>
-				<a href="./"><img id="logo" src="./assets/imagem/logo.gif"></a>
-				<a href="#">Contribua</a>
-				<a href="#">Contato</a>
-  			</nav>
-  		</header>
-  		<main>
-  			<section>
-			<div id="w_img">
-   			<!-- <p>PREVENÇÃO REALIZADA<br>
-   				COM ORGANIZAÇÃO E AMOR</p> -->
-  			</div>
-			<div id="hist" class="flex">
-  				<img class="img_fit" src="">
- 					<span>
- 						O Grupo PROA (Prevenção Realizada com Organização e Amor) iniciou suas atividades em abril de 1998, na Comunidade do Morro dos Prazeres,
- 						no bairro de Santa Teresa, Rio de Janeiro, quando um grupo de amigos decidiu convencer os moradores da importância de se protegerem contra doenças
- 						sexualmente transmissíveis (DSTs). Munidos de um caderno com fotos e informações sobre DSTs, começaram a distribuir preservativos e a realizar um trabalho
-  						de conscientização e educação sexual. O PROA estabeleceu uma parceria - que se fortalece a cada ano - com a Unidade de Saúde local a fim de difundir
-  						informações sobre seus programas sanitários. <br> <br>
-
-  						Com mais de 18 anos de muito trabalho, o grupo segue inovando na busca de temas para os encontros, nas formas
-  						de aconselhamento e capacitação, além da participação em movimentos sociais a fim de fortalecer as parecerias para melhorar a vida dos moradores da
-  						comunidade.
-  					</span>
-  			<div id="hist_imgs">
-   				<img src="./assets/imagem/3.jpg">
-   				<br>
-   				<img src="./assets/imagem/3.jpg">
-   				<br>
-   				<img src="./assets/imagem/3.jpg">
-   			</section>	<br> 
-   			<section>
- 				<div id="sobre">
-  				<div id="btn_bg" class="fl33ex">
-				<div><a class="btn">passeios</a></div>
-				<div><a class="btn">reciclação</a></div>
-				<div><a class="btn">caminho do graffiti</a></div>
-				<div><a class="btn">clube jovem</a></div>
-				<div><a class="btn">brigada mirim</a></div>
-				<div><a class="btn">encontros de sensibilização</a></div>
-				<div><a class="btn">jardim dos prazeres</a></div>
-				<div><a class="btn">camelô educativo</a></div>
-				<div><a class="btn">renovação de vidas</a></div>
- 				<div class="flex">
- 			</div>
- 			</section>
- 		</main>		
- 		<footer>
- 
- 		</footer>
+ 	<header>
+  		<nav id="navbar" class="flex uppercase">
+			<a href="#hist">História</a>
+			<a href="#midia">Mídia</a>
+			<a href="./"><img id="logo" src="midia/logo.gif"></a>
+			<a href="#bg_contato">Contribua</a>
+			<a href="#bg_contato">Contato</a>
+		</nav>
+ 	</header>
+ 	<main>
+		<div id="historia">
+ 		<div>
+   		<span id="w_img" class="op"></span>
+    	<span id="w_text">PREVENÇÃO REALIZADA<br>
+    	COM ORGANIZAÇÃO E AMOR</span>
+ 		</div>
+ 		<div id="hist" class="flex">
+ 		<div id="img_fit" class="op"></div>
+ 		<div class="text_fit">
+  		<span>O Grupo PROA (Prevenção Realizada com Organização e Amor) iniciou suas atividades em abril de 1998, na Comunidade do Morro dos Prazeres,
+  		no bairro de Santa Teresa, Rio de Janeiro, quando um grupo de amigos decidiu convencer os moradores da importância de se protegerem contra doenças
+   		sexualmente transmissíveis (DSTs). Munidos de um caderno com fotos e informações sobre DSTs, começaram a distribuir preservativos e a realizar um trabalho
+   		de conscientização e educação sexual. O PROA estabeleceu uma parceria - que se fortalece a cada ano - com a Unidade de Saúde local a fim de difundir
+   		informações sobre seus programas sanitários. Com mais de 18 anos de muito trabalho, o grupo segue inovando na busca de temas para os encontros, nas formas
+   		de aconselhamento e capacitação, além da participação em movimentos sociais a fim de fortalecer as parecerias para melhorar a vida dos moradores da
+   		comunidade.</span>
+  		</div>
+  		<div id="hist_imgs" class="op">
+   		<img src="midia/3.jpg">
+  		<img src="midia/3.jpg">
+   		<img src="midia/3.jpg">
+ 		</div>
+ 		</div>
+		</div>
+		<div id="sobre">
+  		<div id="btn_bg" class="flex uppercase">
+		<a href="#info_bg" onclick="trocaInfo(1);"><div class="btn">passeios</div></a>
+		<a href="#info_bg" onclick="trocaInfo(2);"><div class="btn">reciclação</div></a>
+		<a href="#info_bg" onclick="trocaInfo(3);"><div class="btn">caminho do graffiti</div></a>
+		<a href="#info_bg" onclick="trocaInfo(4);"><div class="btn">clube jovem</div></a>
+		<a href="#info_bg" onclick="trocaInfo(5);"><div class="btn">brigada mirim</div></a>
+		<a href="#info_bg" onclick="trocaInfo(6);"><div class="btn">encontros de sensibilização</div></a>
+		<a href="#info_bg" onclick="trocaInfo(7);"><div class="btn">jardim dos prazeres</div></a>
+		<a href="#info_bg" onclick="trocaInfo(8);"><div class="btn">camelô educativo</div></a>
+		<a href="#info_bg" onclick="trocaInfo(9);"><div class="btn">renovação de vidas</div></a>
+  		</div>
+  		<div id="info_bg" class="flex">
+		<div id="container_titulo" class="titulo uppercase">
+	  	<span id="info_titulo">Encontros de sensibilização</span>
+		</div>
+		<div class="text_fit">
+		<span id="info_texto">São encontros acolhedores com grupos de homens, mulheres, adolescentes, jovens mães para falar de assuntos como: uso da camisinha, 
+		responsabilidade paterna, o aborto e suas consequências, DST/HIV-Aids, drogas, vida escolar, mercado de trabalho e outras demandas que a
+		Comunidade sugerir.</span>
+		</div>
+		<div id="info_img" class="op"></div>
+  		</div>
+		</div>
+		<h1>MÍDIA</h1>
+		<div id="midia" class="flex">
+   		<div class="midiaBIG">
+		<video ref="video" controls="controls"><source type="video/mp4" src="midia/1.mp4"></video><br><br><span>ReciclAção 2016</span>
+  		</div>
+  		<div class="midiasmall">
+    	<div><img src="midia/4.gif"><br><br><span>Aquela Conversa:<br> Meu Ambiente, MultiRio</span></div>
+  		</div>
+  		<div class="midiasmall">
+     	<div><img src="midia/5.gif"><br><br><span>Projeto promove igualdade de gênero entre beneﬁciários do Bolsa Família, Agência Brasil</span></div>
+   		</div>
+		</div>
+	</main>
+	<footer>
+		<div id="bg_contato"></div>
+		<div id="overlay_contato"></div>
+		<div id="contato" class="flex">
+ 		<div id="texto1_contato" class="flex">
+		<h2 class="uppercase">Você também pode colaborar com as ações do proa!</h2>
+		<span>Nosso trabalho é voluntário, e por isso precisamos de apoio humano e financeiro para realizar nossas atividades.
+		Você pode contribuir atráves de ações voluntárias, doações de materiais ou depósito bancário.</span>
+		<br><br><br><br>
+		<h3 class="uppercase">Entre em contato para saber mais</h3>
+		<p><a href="mailto:nucleoproa@yahoo.com.br">nucleoproa@yahoo.com.br</a><br>
+		<a href="tel:5521992276574">+55 21 99227-6574</a>
+		<br><br>
+		Rua Gomes Lopes, 12 fundos<br>Morro dos Prazeres - Santa Tereza, RJ</p>
+ 		</div>
+ 		<div id="persona_contato" class="flex">
+   		<img src="midia/logo.gif">
+ 		</div>
+		<div id="texto2_contato" class="flex">
+  		<h3 class="uppercase">Cris dos prazeres</h3>
+   		<span>Iniciou as atividades do grupo que hoje conta com uma equipe de agentes comunitários voluntários.</span>
+ 		</div> 
+		</div>
+	</footer>
+	</body>
 </html>
