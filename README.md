@@ -1,3 +1,3 @@
 # PROA
     
-    Projeto final modulo1 no curso vai web
+Projeto final do modulo 1 no curso vai na web.
