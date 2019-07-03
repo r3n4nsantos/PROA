@@ -38,7 +38,7 @@ h1 {
 	font-family: 'balboa-plus-fill', sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 2vh;
+	font-size: 2rem;
 	color: #69B284;
 	font-weight: 800;
 	text-decoration: none;
@@ -94,7 +94,7 @@ h1 {
 	font-family: 'balboa-plus-fill', sans-serif;
 	font-style: normal;
 	font-weight: 800;
-	font-size: 3vw;
+	font-size: 3rem;
 	color: #FFF;
 	text-transform: uppercase;
 }
@@ -119,7 +119,7 @@ h1 {
 	width: 30vw;
 	font-family: 'Roboto Slab', serif;
 	font-weight: bold;
-	font-size: 1.2vw;
+	font-size: 1.2rem;
 	margin: 1vw 0;	
 }
 .history__gallery
@@ -181,7 +181,7 @@ h1 {
 	border-color: #fff;
 	border-radius: 100%;
 	align-items: center;
-	font-size: 0.9em;
+	font-size: 0.9rem;
 	text-align: center;
 	justify-content: space-evenly;
 	flex-shrink: 3;
@@ -215,7 +215,7 @@ h1 {
 	font-family: 'balboa-plus-fill', sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 3vw;
+	font-size: 3rem;
 	text-transform: uppercase;
 	font-weight: 800;
 	margin-right: 5vw;
@@ -226,7 +226,7 @@ h1 {
 {
 	width: 45vw;
 	font-family: 'Roboto Slab', serif;
-	font-size: 2.1vw;
+	font-size: 2.1rem;
 	margin: 6vw;	
 }
 /*********************************************************************************************/
@@ -247,7 +247,7 @@ h1 {
 	font-family: 'balboa-plus-fill', sans-serif;
 	font-style: normal;
 	font-weight: 800;
-	font-size: 3vw;
+	font-size: 3rem;
 	text-transform: uppercase;
 }
 .midia__row
@@ -291,14 +291,14 @@ h1 {
 	font-family: 'filson-soft', sans-serif;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 1vw;
+	font-size: 1rem;
 }
 @media (max-width: 768px){
 	.midia{
 		padding: 4vh 5vw 10vh;
 	}
 	.midia__title{
-		font-size: 9vw;
+		font-size: 9rem;
 	}
 	.midia__iframe{
 		height: 56vw;
@@ -306,7 +306,7 @@ h1 {
 	}
 	.midia__subtitle{
 		margin-top: 2vh;
-		font-size: 4vw;
+		font-size: .75rem;
 	}
 	.midia__row{
 		flex-wrap: wrap;
@@ -346,14 +346,14 @@ h1 {
 	font-family: 'balboa-plus-fill', sans-serif;
 	font-style: normal;
 	font-weight: 800;
-	font-size: 2.5vw;
+	font-size: 2.5rem;
 	text-transform: uppercase;
 }
 .contribute__text
 {
 	margin-bottom: 8vh;
 	font-family: 'Roboto Slab', serif;
-	font-size: 1.2vw;
+	font-size: 1.2rem;
 }
 .contact__title
 {
@@ -361,7 +361,7 @@ h1 {
 	font-family: 'balboa-plus-fill', sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 1.8vw;
+	font-size: 1.8rem;
 	text-transform: uppercase;
 }
 .contact__list{
@@ -373,7 +373,7 @@ h1 {
 {
 	margin-bottom: 1vh;
 	font-family: 'Roboto Slab', serif;
-	font-size: 1.5vw;
+	font-size: 1.5rem;
 }
 .social{
     margin-top: 2.5vh;
@@ -382,7 +382,7 @@ h1 {
 {
     margin: 0 1vw;
     font-family: 'Roboto Slab', serif;
-    font-size: 2vw;
+    font-size: 2rem;
     color: #FFF;
     text-decoration: none;
     transition: all 0.5s;
@@ -391,14 +391,14 @@ h1 {
 {
 	margin: 4vh 0 0;
 	font-family: 'Roboto Slab', serif;
-	font-size: 1.5vw;
+	font-size: 1.5rem;
 }
 .footer__image
 {
 	width: 26vw;
 	position: absolute;
 	left: calc(50% - 13vw);
-	bottom: 40px;
+	bottom: 0px;
 }
 .footer__info
 {
@@ -408,16 +408,13 @@ h1 {
 .footer__title
 {
 	margin-bottom: 2vh;
-	font-family: 'balboa-plus-fill', sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.8vw;
+	font-size: 1.8rem;
 	text-transform: uppercase;
 }
 .footer__text
 {
 	font-family: 'Roboto Slab', serif;
-	font-size: 1.2vw;
+	font-size: 1.2rem;
 }
 .vnw
 { 
@@ -433,7 +430,7 @@ h1 {
     font-family: 'filson-soft', sans-serif;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 16rem;
     color: #30368c;
 }
 .vnw__link{
@@ -446,7 +443,7 @@ h1 {
 {
 	#navbar a{
 		margin: 4px;
-		font-size: 0.75em;
+		font-size: 0.75rem;
 	}
 	#logo {
 		z-index: 1;
@@ -472,6 +469,11 @@ h1 {
 		background-repeat: no-repeat;
 		background-position: center;
 	}
+
+	.home__title
+	{
+		font-size: 2rem;
+	}
 	.text_fit
 	{
 		margin: 0px 5px;
@@ -491,7 +493,7 @@ h1 {
 	{
 		width: 80vw;
 		margin: 2vh 0;
-		font-size: 3vw;
+		font-size: 1rem;
 		line-height: 5vw;
 	}
 	.history__gallery
@@ -502,6 +504,10 @@ h1 {
 		height: initial;
 		justify-content: space-between;
 		flex-flow: wrap;
+	}
+	.midia__title
+	{
+		font-size: 2rem;
 	}
 	#btn_bg div{
 		margin-bottom: 5px;
@@ -519,13 +525,13 @@ h1 {
 	{
 		width: 80vw;
 		margin: auto;
-		font-size: 11vw;
+		font-size: 11rem;
 	}
 	#info_texto 
 	{	
 		width: 80vw;
 		margin: 15vw;
-		font-size: 5vw;
+		font-size: 5rem;
 
 	}
 	#info_img{
@@ -548,23 +554,23 @@ h1 {
 		align-self: flex-start;
 	}
 	.contribute__title{
-		font-size: 6.5vw;
+		font-size: 2rem;
 	}
 	.contribute__text{
-		font-size: 5vw;
+		font-size: 1rem;
 	}
 	.contact__title{
-		font-size: 5.5vw;
+		font-size: 5.5rem;
 	}
 	.contact__list-item{
-		font-size: 4.5vw;
+		font-size: 1rem;
 	}
     .social-midia{
         margin: 0 3vw;
-        font-size: 8vw;
+        font-size: 8rem;
     }
 	.contact__text{
-		font-size: 4.5vw;
+		font-size: 1rem;
 	}
 	.footer__box{
 		width: 100vw;
@@ -578,19 +584,19 @@ h1 {
 		width: 30vw;
 		position: relative;
 		left: 10vw;
-        bottom: 0;
+        bottom: 40px;
 	}
 	.footer__info{
 		width: 50vw;
 		margin: 0 5vw 0;
 	}
 	.footer__title{
-		font-size: 4vw;
+		font-size: 4rem;
 	}
 	.footer__text{
-		font-size: 4vw;	
+		font-size: 4rem;	
 	}
     .vnw__text{
-        font-size: 12px;
+        font-size: 1rem;
     }
    }
