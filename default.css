@@ -38,7 +38,7 @@ h1 {
 	font-family: 'balboa-plus-fill', sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 2rem;
+	font-size: 1rem;
 	color: #69B284;
 	font-weight: 800;
 	text-decoration: none;
@@ -94,7 +94,7 @@ h1 {
 	font-family: 'balboa-plus-fill', sans-serif;
 	font-style: normal;
 	font-weight: 800;
-	font-size: 3rem;
+	font-size: 2rem;
 	color: #FFF;
 	text-transform: uppercase;
 }
@@ -525,13 +525,13 @@ h1 {
 	{
 		width: 80vw;
 		margin: auto;
-		font-size: 11rem;
+		font-size: 2rem;
 	}
 	#info_texto 
 	{	
 		width: 80vw;
 		margin: 15vw;
-		font-size: 5rem;
+		font-size: 1rem;
 
 	}
 	#info_img{
